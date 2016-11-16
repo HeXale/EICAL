@@ -1,0 +1,154 @@
+/* CSS Document */
+body {
+         background-image:url(fond.jpg);
+ 
+}
+
+.wrap {
+    width:100%
+}
+
+
+
+#header-wrap {
+      width:100%;
+      }   
+      
+         
+      
+          #header img {
+              width:200px; 
+              margin:5px;
+              float:left;
+              margin-right:20px;
+          }   
+          
+          #header h1 {
+              position: right;
+              margin:0;
+              line-height:120px;
+              color:rgb(132,132,132);
+              font-family:helvetica;           
+          }
+              
+/*Nav Barre */
+
+#menu, #menu ul {
+  border: 10px;
+  padding:0;
+  margin:0;
+  list-style: none;
+  text-align: center;
+}
+
+      #menu li {
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+    background: rgb(174,174,174);
+    border-width:5px;
+    border-color:black;
+  }
+          #menu li li {
+            display:inherit;
+          }
+          #menu li:hover {
+            background: #6E6E6E
+          }
+  #menu a {
+    display:block;
+    padding:5px 110px;
+    text-decoration: none;
+    color:#fff;
+    font-family:helvetica;
+    font-size: 18px;
+  }
+          #menu ul li a {
+            padding:5px 8px;
+          }
+  #menu ul {
+    position: absolute;
+    z-index: 1000;
+    min-width:100%;
+    white-space: nowrap;
+    text-align: left;
+  }
+          #menu ul ul {
+            left:100%;
+            top:0;
+            overflow: hidden;
+            max-width: 0;
+            min-width: 0;
+            transition: 0.3s all;
+                  }
+                  #menu ul li:hover ul {
+                    max-width: 30em;
+                  }
+          #menu ul li {
+            max-height:0;
+            overflow: hidden;
+           
+          }
+                  #menu li li li {
+                    max-height: inherit;
+                  }
+                  
+                  #menu li:hover li {
+                    max-height: 15em;
+                    overflow: visible;
+                  }
+                  
+#corps {
+     width:950px;
+     margin:15px auto;
+    }
+    
+#gauche {
+    position:relative;
+    float:left;
+    width:900px;
+    height:1500px;
+    background:rgb(174,174,174);
+    right:150px;
+    top:50px;
+    }
+    
+#titre{
+  color:white;
+  font-family:helvetica;
+  font-size:32px;
+}
+
+    
+#text {
+  color:white;
+  font-family:helvetica;
+  font-size:18px;
+}
+
+
+
+  #text img {
+      width:400px;
+      height:150px;
+  }    
+    
+    
+.flickr{
+  position:absolute;
+  
+}
+
+
+   
+.twitter{
+  position: fixed;
+  top: 500px;
+  left:1200px;
+  }
+  
+    #equipe img {
+        width:150px;
+        height:150px;
+    }
+    

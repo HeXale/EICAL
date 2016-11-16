@@ -1,0 +1,34 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Nouveau projet
+	+Répertoire
+		Accueil.html
+		style.css
+[Open project files]
+0=site_css\style.css
+1=Accueil.html
+2=style.css
+[Selected Project Files]
+Main=
+Selected=Accueil.html
+[site_css\style.css]
+TopLine=1
+Caret=1,1
+[Accueil.html]
+TopLine=1
+Caret=49,25
+[style.css]
+TopLine=55
+Caret=21,96

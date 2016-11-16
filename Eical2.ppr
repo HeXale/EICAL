@@ -1,0 +1,55 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Nouveau projet
+	+Répertoire
+		style.css
+		Accueil.html
+		reference.html
+		produits.html
+		equipe.html
+		contact.html
+		actualite.html
+[Open project files]
+0=Accueil.html
+1=actualite.html
+2=equipe.html
+3=reference.html
+4=produits.html
+5=contact.html
+6=style.css
+[Selected Project Files]
+Main=
+Selected=equipe.html
+[Accueil.html]
+TopLine=32
+Caret=32,46
+[actualite.html]
+TopLine=37
+Caret=31,60
+[equipe.html]
+TopLine=36
+Caret=177,63
+[reference.html]
+TopLine=8
+Caret=29,17
+[produits.html]
+TopLine=6
+Caret=29,17
+[contact.html]
+TopLine=11
+Caret=8,11
+[style.css]
+TopLine=127
+Caret=1,153

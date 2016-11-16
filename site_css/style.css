@@ -1,0 +1,47 @@
+/* Feuille de Style du Machin Chose */
+
+/* -----------------------------------------------------------------------------------------------------------------*/
+/* Styles Communs à toutes les pages ------------------------------------------------------------------------------ */
+/* -----------------------------------------------------------------------------------------------------------------*/
+
+	body { min-height: 100%; width: 1000px; padding: 0 10px; margin: 0 auto; position: relative; color;#000000;}
+/* Structure des pages internes */
+
+	#header {height:180px;}
+	div#center {padding-bottom: 70px; overflow: auto;}
+	div#content {float: right; width: 700px;}
+	div#sidebar {float: left; width: 300px;}
+	div#footer { position: absolute; width: 100%; bottom: 0; left: 10px; text-align:center; border-top:1px solid #e1e1e1; margin:10px 0 0 0;}
+
+	div#sidebar h2 {font-size:12px}
+
+	div#mhorizontal {margin: 10px 0 0 0 }
+
+
+/* Structure des pages internes */
+
+	div#content-int {float: right; width: 800px;}
+	div#sidebar-int {float: left; width: 200px;}
+	
+	div#sidebar-int h2 {font-size:12px}
+
+	
+/* Menu horizontal général */
+
+	#menu-mh, #menu-mh ul{font-size: 12px;padding:0;margin:0;list-style:none;}
+	#menu-mh li{display:inline-block;position:relative;}
+	#menu-mh ul li{display:inherit;}
+	#menu-mh ul{position:absolute;max-height:0;width:100%;overflow:hidden;-moz-transition: .8s all .3s;-webkit-transition: .8s all .3s;transition: .8s all .3s;}
+	#menu-mh li:hover ul{max-height:15em;}
+	/* background des liens menus */
+	#menu-mh li {background-color: #65537A;}
+	/* background des liens sous menus */
+	#menu-mh li li{background:#2A2333; padding: 0 5px;}
+	/* background des liens menus et sous menus au survol */
+	#menu-mh li:hover, #menu-mh li li:hover{background:#65537A;}
+	 /* les a href */
+	#menu-mh a{text-decoration:none;display:block;padding:8px 32px;color:#fff;font-family:arial;}
+	#menu-mh ul a{padding:8px 0;}
+	#menu-mh li:hover li a{color:#fff;text-transform:inherit;}
+	#menu-mh li:hover a, #menu-mh li li:hover a{color:#000;}
+
